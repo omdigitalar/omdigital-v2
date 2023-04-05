@@ -5,6 +5,9 @@
   box-sizing: border-box; }
 
 p, h1, h2, h3, h4 {
+  margin-bottom: 0px; }
+
+p, h1, h2, h3, h4 {
   color: white;
   font-family: 'Montserrat', sans-serif; }
   p::selection, h1::selection, h2::selection, h3::selection, h4::selection {
