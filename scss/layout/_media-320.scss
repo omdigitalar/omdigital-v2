@@ -1,0 +1,267 @@
+/*HEADER*/
+
+@media (max-width: 320px) {
+    nav {
+        padding: 0px
+    }
+}
+
+/*SECTION PRINCIPAL*/
+@media (max-width: 425px) {
+
+    img,
+    svg {
+        vertical-align: middle;
+        max-width: 150px;
+    }
+
+    .portada-pagina-contacto h1 {
+        font-size: 30px;
+    }
+
+}
+
+/*HOME*/
+
+@media (max-width: 425px) {
+
+    .impronta,
+    .nuestra-impronta,
+    .diferenciales {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .nuestra-impronta,
+    .diferenciales {
+        text-align: start;
+        padding: 40px;
+    }
+
+    .impronta {
+        background-color: black;
+    }
+
+    .nuestra-impronta h2 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .servicios {
+        background-color: black;
+    }
+
+    .adaptamos3 {
+        text-align: center;
+        background-color: black;
+        margin: 0px;
+        padding: 20px;
+
+    }
+
+    .adaptamos3 h3 {
+        font-size: 20px;
+
+    }
+
+    .ver-mas-proyectos {
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    .adaptamos3 h4 {
+        font-size: 20px;
+    }
+
+    .servicios .bloque-servicios {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .listado-servicios ul {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    ol,
+    ul {
+        padding-left: 0px;
+    }
+
+    .adaptamos h3 {
+        font-size: 20px;
+    }
+
+    .adaptamos h4 {
+        font-size: 20px;
+    }
+
+    .servicios .bloque-servicios li {
+        text-align: center;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .ultimos-trabajos {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .ultimos-trabajos div {
+        width: 100%;
+    }
+
+    .ultimos-titulo {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .trabajos-index {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .trabajo1,
+    .trabajo2,
+    .trabajo3,
+    .trabajo4 {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .trabajo1 img,
+    .trabajo2 img,
+    .trabajo3 img,
+    .trabajo4 img {
+        margin: 0px;
+        padding: 0px;
+        max-width: 280px;
+        box-shadow: 10px 10px 4px rgb(14, 14, 14);
+    }
+
+    .ultimos-trabajos h2 {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        padding: 20px;
+        font-size: 25px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+
+    .clientes div h2 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+/*PAGINA ACERCA DE*/
+
+@media (max-width: 425px) {
+    .cv {
+        padding: 20px;
+        grid-template-columns: 1fr;
+
+    }
+
+    .foto-manu {
+        max-width: 100%;
+        padding: 20px;
+        height: auto;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .director {
+        font-size: 1rem;
+    }
+
+    .nombre-manu {
+        font-size: 2rem;
+    }
+
+    .div-foto {
+        max-width: 100%;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        margin: 0px
+    }
+}
+
+/*PAGINA SERVICIOS*/
+
+@media (max-width: 425px) {
+    .card-group {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px;
+        gap: 40px;
+        padding: 20px 0px;
+    }
+}
+
+/*PAGINA PROYECTOS*/
+
+@media (max-width: 425px) {
+
+    .grid-proyectos {
+        width: 100%;
+        padding: 20px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .celda-proyecto {
+        max-width: 280px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .celda-proyecto img,
+    .celda-proyecto iframe {
+        max-width: 280px;
+    }
+
+    .celda-proyecto figure {
+        max-width: 280px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .cierre-proyectos {
+        padding: 50px 20px;
+        background-color: black;
+        margin: 0px;
+    }
+
+    .celda-proyecto figcaption {
+        padding-bottom: 0px;
+        margin-top: 0px;
+        font-size: 12px;
+        padding: 10px 0px;
+    }
+
+}

@@ -1,0 +1,106 @@
+/*HEADER*/
+
+header {
+    height: 100px;
+    margin-bottom: -100px;
+}
+
+.item-menu {
+    display: inline-block;
+}
+
+
+.logoPrincipal {
+    display: inline;
+}
+
+nav {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 00;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+.menu-web ul {
+    display: inline;
+}
+
+/*FIN DE HEADER*/
+
+/*nuevo menu boostrap*/
+
+
+.nav-link {
+    color: #61ce70;
+}
+
+.navbar-nav li a {
+    padding: 10px;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    color: #61ce70;
+}
+
+.navbar-toggler:hover {
+    text-decoration: none;
+    background: #0000;
+    border: #61ce70 solid 2px;
+}
+
+.navbar-toggler {
+    text-decoration: none;
+    background: #0000;
+    border: #61ce70 solid 2px;
+    color: #61ce70;
+}
+
+
+/*MENU RESPONSIVE*/
+
+.nav-wraper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    padding: 0px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+
+
+.menu-hamburguesa {
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+.material-icons {
+    display: none;
+}
+
+/*fin menu responsive*/

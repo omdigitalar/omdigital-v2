@@ -1,0 +1,88 @@
+/*pagina proyectos y otras */
+
+.titulo-pagina-h2 {
+    padding-top: 300px;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.bajada-pagina-h3 {
+    margin-left: 0px;
+}
+
+.presentacion-pagina {
+    padding-top: 50px;
+}
+
+.section-presentacion {
+    padding: 50px 150px;
+    background-color: black;
+    width: 100%;
+}
+
+.cv {
+    padding: 50px 150px 150px 150px;
+    background-color: black;
+    width: 100%;
+}
+
+.section-presentacion h4 {
+    color: #61ce70;
+    margin-right: 300px;
+}
+
+.section-presentacion div p {
+    font-weight: 300%;
+}
+
+
+.grid-proyectos {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 0px 150px;
+}
+
+.celda-proyecto {
+    display: grid;
+    max-width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFF;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.celda-proyecto img {
+    max-width: 500px;
+}
+
+.celda-proyecto iframe {
+    max-width: 500px;
+}
+
+.celda-proyecto figcaption {
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.cierre-proyectos {
+    padding: 150px;
+    background-color: black;
+}
+
+.cierre-proyectos h3 {
+    margin-bottom: 50px;
+}
+
+.cierre-proyectos hr {
+    border-width: 6px 0px 0px 0px;
+    border-color: #61ce70;
+    margin-left: 0px;
+    margin-right: 90%;
+    ;
+}

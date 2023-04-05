@@ -1,0 +1,40 @@
+/*Pagina servicios*/
+
+.cards-servicios {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.card-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px;
+    gap: 40px;
+    padding: 20px 0px;
+}
+
+.card {
+    max-width: 300px;
+    background-color: #0000;
+}
+
+.card-title {
+    color: #61ce70;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+
+.card-body {
+    max-width: 300px;
+    border-radius: 0px;
+    border: #61ce70 solid;
+    background-color: #0000;
+    padding: 20px 20px;
+}
+

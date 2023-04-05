@@ -1,0 +1,23 @@
+/*CONTACTO*/
+.contacto-data-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 150px;
+    background-color: black;
+    width: 100%;
+}
+
+.info-de-contact-1col {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.ico-data {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.contacto-div {
+    padding: 10px 0px 10px 0px;
+}
