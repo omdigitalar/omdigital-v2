@@ -396,7 +396,8 @@ hr {
   margin-right: 300px; }
 
 .section-presentacion div p, .section-presentacion div h1, .section-presentacion div h2, .section-presentacion div h3, .section-presentacion div h4 {
-  font-weight: 300%; }
+  font-weight: 300%;
+  margin: 0px; }
 
 .grid-proyectos {
   display: grid;
@@ -466,6 +467,9 @@ hr {
 
 .director {
   font-size: 1.5rem; }
+
+.que-es-OM p, .que-es-OM h1, .que-es-OM h2, .que-es-OM h3, .que-es-OM h4 {
+  margin: 0px; }
 
 /*Pagina servicios*/
 .cards-servicios {
@@ -929,6 +933,9 @@ footer h3 {
     padding: 0px 0px 0px 0px;
     display: flex;
     margin: 0px; } }
+
+.section-presentacion .que-es-OM p, .section-presentacion .que-es-OM h1, .section-presentacion .que-es-OM h2, .section-presentacion .que-es-OM h3, .section-presentacion .que-es-OM h4 {
+  margin: 0px; }
 
 /*PAGINA SERVICIOS*/
 @media (max-width: 425px) {
