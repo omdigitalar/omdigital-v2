@@ -16,7 +16,7 @@ header {
 
 nav {
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font-main;
     font-weight: 00;
     display: inline;
     padding: 0px 20px 0px 20px;
@@ -32,7 +32,7 @@ nav {
 
 
 .nav-link {
-    color: #61ce70;
+    color: $primary-color;
 }
 
 .navbar-nav li a {
@@ -48,20 +48,20 @@ nav {
 }
 
 .navbar-toggler {
-    color: #61ce70;
+    color: $primary-color;
 }
 
 .navbar-toggler:hover {
     text-decoration: none;
     background: #0000;
-    border: #61ce70 solid 2px;
+    border: $primary-color solid 2px;
 }
 
 .navbar-toggler {
     text-decoration: none;
     background: #0000;
-    border: #61ce70 solid 2px;
-    color: #61ce70;
+    border: $primary-color solid 2px;
+    color: $primary-color;
 }
 
 

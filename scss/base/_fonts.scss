@@ -1,8 +1,8 @@
 p {
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font-main;
     &::selection {
-            background-color: #61ce70;
+            background-color: $primary-color;
             color: rgb(15, 15, 15);
     }
 }
@@ -33,27 +33,27 @@ h4 {
 
 a {
     text-decoration: none;
-    color: #61ce70;
-    font-family: 'Montserrat', sans-serif;
+    color: $primary-color;
+    font-family: $font-main;
     &::selection {
-            background-color: #61ce70;
+            background-color: $primary-color;
             color: rgb(15, 15, 15);
     }
 }
 
 li {
-    color: #61ce70;
-    font-family: 'Montserrat', sans-serif;
+    color: $primary-color;
+    font-family: $font-main;
     font-weight: 500;
     padding: 0px 20px 0px 20px;
     list-style: none;
     &::selection {
-        background-color: #61ce70;
+        background-color: $primary-color;
         color: rgb(15, 15, 15);
 }
 }
 
 html .boton::selection {
-    background-color: #61ce70;
+    background-color:$primary-color;
     color: rgb(15, 15, 15);
 }
