@@ -6,12 +6,14 @@
     width: 100%;
     padding: 100px;
     background-color: rgb(15, 15, 15);
+
     .nuestra-impronta {
         width: 50%;
         margin-bottom: 0px;
         margin-left: 150px;
         padding-top: 0px;
     }
+
     .diferenciales {
         width: 50%;
         text-align: right;
@@ -42,6 +44,7 @@
         margin: 0px;
         padding: 20px;
     }
+
     .bloque-servicios {
         width: 100%;
         padding: 0px 300px;
@@ -52,6 +55,7 @@
         align-items: center;
         font-weight: 400;
         background-color: black;
+
         .listado-servicios li {
             text-align: center;
             font-weight: 400;
@@ -95,9 +99,11 @@
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
+
     .ultimos-titulo {
         display: grid;
         grid-template-columns: 1fr 1fr;
+
         h2 {
             margin-bottom: 50px;
             padding-right: 100px;
@@ -105,58 +111,95 @@
             justify-content: end;
         }
     }
+
     .trabajos-index {
         display: grid;
         width: 100%;
         grid-template-columns: 1fr 1fr;
+
         .trabajo1 {
             display: grid;
             justify-content: end;
             margin-bottom: -40px;
             margin-right: -20px;
             z-index: 4;
+
             img {
                 display: grid;
                 max-width: 500px;
                 box-shadow: 5px 5px 30px rgb(26, 26, 26);
                 text-align: end;
+                transition: transform 0.3s ease-in-out;
+                &:hover {
+                    transform: translateY(-15px);
+                }
+                &:hover~img {
+                    transform: translateY(0);
+                }
             }
         }
+
         .trabajo2 {
             display: grid;
             justify-content: start;
             margin-top: -80px;
             max-height: auto;
             z-index: 3;
+
             img {
                 display: grid;
                 max-width: 500px;
                 max-height: auto;
                 box-shadow: 5px 5px 30px rgb(17, 17, 17);
+                transition: transform 0.3s ease-in-out;
+                &:hover {
+                    transform: translateY(-15px);
+                }
+                &:hover~img {
+                    transform: translateY(0);
+                }
             }
         }
+
         .trabajo3 {
             display: grid;
             justify-content: end;
             z-index: 2;
             margin-right: -50px;
+
             img {
                 display: grid;
                 max-width: 500px;
                 box-shadow: 5px 5px 30px rgb(17, 17, 17);
+                transition: transform 0.3s ease-in-out;
+                &:hover {
+                    transform: translateY(-15px);
+                }
+                &:hover~img {
+                    transform: translateY(0);
+                }
             }
         }
+
         .trabajo4 {
             display: grid;
             justify-content: start;
             margin-top: -300px;
             margin-left: -30px;
             z-index: 1;
+
             img {
                 display: grid;
                 max-width: 500px;
                 box-shadow: 5px 5px 30px rgb(17, 17, 17);
                 margin-bottom: 50px;
+                transition: transform 0.3s ease-in-out;
+                &:hover {
+                    transform: translateY(-15px);
+                }
+                &:hover~img {
+                    transform: translateY(0);
+                }
             }
         }
     }
@@ -248,17 +291,26 @@
     text-align: center;
     padding-top: 100px;
     background-color: black;
+
     div h2 {
         font-size: 30px;
         margin: 0px;
         padding: 0px;
     }
+
     .logos-clientes {
         width: 100%;
         padding: 30px;
+
         img {
+            transition: transform 0.3s ease-in-out;
             &:hover {
                 opacity: 70%;
+                transform: translateY(-15px);
+            }
+
+            &:hover~img {
+                transform: translateY(0);
             }
         }
     }
@@ -286,6 +338,7 @@
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: black;
+
     h2 {
         margin: 0px 0px 50px 0px;
     }
@@ -302,4 +355,3 @@
 // .adaptamos h2 {
 //     margin: 0px 0px 50px 0px;
 // }
-

@@ -222,7 +222,12 @@ header {
         display: grid;
         max-width: 500px;
         box-shadow: 5px 5px 30px #1a1a1a;
-        text-align: end; }
+        text-align: end;
+        transition: transform 0.3s ease-in-out; }
+        .ultimos-trabajos .trabajos-index .trabajo1 img:hover {
+          transform: translateY(-15px); }
+        .ultimos-trabajos .trabajos-index .trabajo1 img:hover ~ img {
+          transform: translateY(0); }
     .ultimos-trabajos .trabajos-index .trabajo2 {
       display: grid;
       justify-content: start;
@@ -233,7 +238,12 @@ header {
         display: grid;
         max-width: 500px;
         max-height: auto;
-        box-shadow: 5px 5px 30px #111111; }
+        box-shadow: 5px 5px 30px #111111;
+        transition: transform 0.3s ease-in-out; }
+        .ultimos-trabajos .trabajos-index .trabajo2 img:hover {
+          transform: translateY(-15px); }
+        .ultimos-trabajos .trabajos-index .trabajo2 img:hover ~ img {
+          transform: translateY(0); }
     .ultimos-trabajos .trabajos-index .trabajo3 {
       display: grid;
       justify-content: end;
@@ -242,7 +252,12 @@ header {
       .ultimos-trabajos .trabajos-index .trabajo3 img {
         display: grid;
         max-width: 500px;
-        box-shadow: 5px 5px 30px #111111; }
+        box-shadow: 5px 5px 30px #111111;
+        transition: transform 0.3s ease-in-out; }
+        .ultimos-trabajos .trabajos-index .trabajo3 img:hover {
+          transform: translateY(-15px); }
+        .ultimos-trabajos .trabajos-index .trabajo3 img:hover ~ img {
+          transform: translateY(0); }
     .ultimos-trabajos .trabajos-index .trabajo4 {
       display: grid;
       justify-content: start;
@@ -253,7 +268,12 @@ header {
         display: grid;
         max-width: 500px;
         box-shadow: 5px 5px 30px #111111;
-        margin-bottom: 50px; }
+        margin-bottom: 50px;
+        transition: transform 0.3s ease-in-out; }
+        .ultimos-trabajos .trabajos-index .trabajo4 img:hover {
+          transform: translateY(-15px); }
+        .ultimos-trabajos .trabajos-index .trabajo4 img:hover ~ img {
+          transform: translateY(0); }
 
 /*fin seccion ultimos trabajos*/
 /*SECCION CLIENTES*/
@@ -268,8 +288,13 @@ header {
   .clientes .logos-clientes {
     width: 100%;
     padding: 30px; }
-    .clientes .logos-clientes img:hover {
-      opacity: 70%; }
+    .clientes .logos-clientes img {
+      transition: transform 0.3s ease-in-out; }
+      .clientes .logos-clientes img:hover {
+        opacity: 70%;
+        transform: translateY(-15px); }
+      .clientes .logos-clientes img:hover ~ img {
+        transform: translateY(0); }
 
 /*cierre de inicio*/
 .adaptamos {
