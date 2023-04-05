@@ -9,17 +9,16 @@
     background-color: #00000000;
     box-shadow: 2px 2px 20px rgba(43, 43, 43, 0.685);
     margin-left: 0px;
-}
-
-.link-boton:hover {
-    padding: 10px 20px 10px 20px;
-    color: $primary-color;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: 800;
-    border: #FFFF solid 2px;
-    background-color: #00000000;
-    box-shadow: 2px 2px 20px rgba(43, 43, 43, 0.685);
+    &:hover {
+        padding: 10px 20px 10px 20px;
+        color: $primary-color;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        border: #FFFF solid 2px;
+        background-color: #00000000;
+        box-shadow: 2px 2px 20px rgba(43, 43, 43, 0.685);
+    }
 }
 
 /*fin boton general*/

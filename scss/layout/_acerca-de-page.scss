@@ -6,36 +6,62 @@
     padding: 20px 200px 100px 50px;
     background-color: black;
     width: 100%;
+    .div-foto {
+        justify-content: end;
+        padding: 30px;
+        display: grid;
+        align-content: center;
+        img {
+            max-width: 500px;
+            height: auto;
+            margin-left: -70px;
+            margin-top: -45px;
+            box-shadow: 5px 5px 10px rgb(16, 16, 16);
+        }
+    }
+    .data-cv {
+        h3 {
+            font-size: 1.5rem;
+        }
+        h4 {
+            font-size: 2.5rem;
+        }
+    }
 }
 
-.foto-manu {
-    max-width: 500px;
-    height: auto;
-    margin-left: -70px;
-    margin-top: -45px;
-    box-shadow: 5px 5px 10px rgb(16, 16, 16);
-}
+// .foto-manu {
+//     max-width: 500px;
+//     height: auto;
+//     margin-left: -70px;
+//     margin-top: -45px;
+//     box-shadow: 5px 5px 10px rgb(16, 16, 16);
+// }
 
 
-.div-foto {
-    justify-content: end;
-    padding: 30px;
-    display: grid;
-    align-content: center;
-}
+// .div-foto {
+//     justify-content: end;
+//     padding: 30px;
+//     display: grid;
+//     align-content: center;
+// }
 
 
-.nombre-manu {
-    font-size: 2.5rem;
-}
+// .nombre-manu {
+//     font-size: 2.5rem;
+// }
 
-.director {
-    font-size: 1.5rem;
-}
+// .director {
+//     font-size: 1.5rem;
+// }
 
 .section-presentacion {
-
     .que-es-OM {
+        h4{
+            font-weight: 700;
+            font-size: 40px;
+            padding: 20px 0px;
+            text-transform: uppercase;
+        }
         p {
             margin: 0px;
         }

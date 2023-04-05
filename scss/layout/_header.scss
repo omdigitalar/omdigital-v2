@@ -5,29 +5,6 @@ header {
     margin-bottom: -100px;
 }
 
-.item-menu {
-    display: inline-block;
-}
-
-
-.logoPrincipal {
-    display: inline;
-}
-
-nav {
-    color: white;
-    font-family: $font-main;
-    font-weight: 00;
-    display: inline;
-    padding: 0px 20px 0px 20px;
-}
-
-.menu-web ul {
-    display: inline;
-}
-
-/*FIN DE HEADER*/
-
 /*nuevo menu boostrap*/
 
 
@@ -63,44 +40,3 @@ nav {
     border: $primary-color solid 2px;
     color: $primary-color;
 }
-
-
-/*MENU RESPONSIVE*/
-
-.nav-wraper {
-    width: 100%;
-    margin: 0 auto;
-}
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: end;
-    align-items: center;
-    padding: 0px;
-}
-
-.menu ul {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-}
-
-.menu ul li a {
-    text-decoration: none;
-}
-
-
-.menu-hamburguesa {
-    display: none;
-}
-
-#toggle {
-    display: none;
-}
-
-.material-icons {
-    display: none;
-}
-
-/*fin menu responsive*/

@@ -5,19 +5,39 @@
     padding: 100px 150px;
     background-color: black;
     width: 100%;
-}
+    .datos-de-contacto {
+        padding: 10px 0px 10px 0px;
+        .info-de-contacto-1col {
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            gap: 20px;
+            padding-top: 20px;
+            div {
+                display: inline-flex;
+                gap: 10px;
+                align-items: start;
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+            }
+        }
+    }
 
-.info-de-contact-1col {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-}
+
+// .info-de-contact-1col {
+//     display: flex;
+//     flex-direction: column;
+//     margin: 0px;
+// }
 
 .ico-data {
     display: flex;
     margin: 10px 0px;
 }
 
-.contacto-div {
-    padding: 10px 0px 10px 0px;
-}
+// .contacto-div {
+//     padding: 10px 0px 10px 0px;
+// }
