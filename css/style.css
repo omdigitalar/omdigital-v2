@@ -483,9 +483,9 @@ footer {
     .sectionPortada .portada-pagina-contacto h1 {
       font-size: 40px; }
     .sectionPortada .portada-pagina-contacto h2 {
-      font-size: 30px; }
+      font-size: 35px; }
     .sectionPortada .portada-pagina-contacto h3 {
-      font-size: 20px; } }
+      font-size: 25px; } }
 
 @media (max-width: 800px) {
   .info-de-contacto {
@@ -513,7 +513,16 @@ footer {
     .diferenciales h2 {
       margin: 0px;
       padding: 0px;
-      font-size: 40px; } }
+      font-size: 40px; }
+  .impronta .nuestra-impronta {
+    width: 100%;
+    margin: 0px;
+    padding: 50px; }
+  .impronta .diferenciales {
+    width: 100%;
+    margin: 0px;
+    padding: 0px 50px;
+    text-align: start; } }
 
 @media (max-width: 800px) {
   .servicios {
@@ -552,8 +561,8 @@ footer {
         width: 100%;
         margin: 0px;
         text-align: center;
-        padding: 20px;
-        font-size: 25px;
+        padding: 50px 20px;
+        font-size: 30px;
         width: 100%;
         display: grid;
         justify-content: center; }
@@ -594,6 +603,23 @@ footer {
     .adaptamos-2 h2 {
       margin: 0px 0px 50px 0px;
       font-size: 1.5rem;
+      padding: 0px 30px; }
+    .adaptamos h3,
+    .adaptamos-2 h3 {
+      margin: 0px;
+      font-size: 1.5rem;
+      padding: 0px 30px; }
+  .adaptamos3 {
+    text-align: center;
+    background-color: black;
+    padding-top: 50px; }
+    .adaptamos3 h2 {
+      margin: 0px 0px 50px 0px;
+      font-size: 1.5rem;
+      padding: 0px 30px; }
+    .adaptamos3 h3 {
+      margin: 0px;
+      font-size: 1.5rem;
       padding: 0px 30px; } }
 
 /*PAGINA ACERCA DE*/
@@ -633,7 +659,7 @@ footer {
 
 /*PAGINA SERVICIOS*/
 @media (max-width: 800px) {
-  .card-group {
+  .cards-servicios .card-group {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0px;

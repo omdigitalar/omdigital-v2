@@ -11,11 +11,11 @@
         }
 
         h2 {
-            font-size: 30px;
+            font-size: 35px;
         }
 
         h3 {
-            font-size: 20px;
+            font-size: 25px;
         }
     }
 }
@@ -71,6 +71,19 @@
         }
     }
 
+    .impronta {
+        .nuestra-impronta {
+            width: 100%;
+            margin: 0px;
+            padding: 50px;
+        }
+        .diferenciales {
+            width: 100%;
+            margin: 0px;
+            padding: 0px 50px;
+            text-align: start;
+        }
+    }
     // .nuestra-impronta h2 {
     //     margin: 0px;
     //     padding: 0px;
@@ -150,8 +163,8 @@
                 width: 100%;
                 margin: 0px;
                 text-align: center;
-                padding: 20px;
-                font-size: 25px;
+                padding: 50px 20px;
+                font-size: 30px;
                 width: 100%;
                 display: grid;
                 justify-content: center;
@@ -259,6 +272,27 @@
         background-color: black;
         h2 {
             margin: 0px 0px 50px 0px;
+            font-size: 1.5rem;
+            padding: 0px 30px;
+        }
+        h3 {
+            margin: 0px;
+            font-size: 1.5rem;
+            padding: 0px 30px;
+        }
+    }
+
+        .adaptamos3 {
+        text-align: center;
+        background-color: black;
+        padding-top: 50px;
+        h2 {
+            margin: 0px 0px 50px 0px;
+            font-size: 1.5rem;
+            padding: 0px 30px;
+        }
+        h3 {
+            margin: 0px;
             font-size: 1.5rem;
             padding: 0px 30px;
         }
@@ -380,6 +414,7 @@
 /*PAGINA SERVICIOS*/
 
 @media (max-width: 800px) {
+    .cards-servicios {
     .card-group {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -387,6 +422,7 @@
         gap: 40px;
         padding: 20px 0px;
     }
+}
 }
 
 /*PROYECTOS*/
