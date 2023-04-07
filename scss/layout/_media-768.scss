@@ -1,7 +1,7 @@
 /*HEADER*/
 
 /*section principal*/
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .portada-pagina-contacto {
         padding: 0px 30px;
 
@@ -247,7 +247,7 @@
     // }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
     .adaptamos,
     .adaptamos-2 {
@@ -377,7 +377,7 @@
 
 /*PAGINA SERVICIOS*/
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .card-group {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -446,7 +446,7 @@
 
 /*CONTACTO*/
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .contacto-data-form {
         grid-template-columns: 1fr;
         margin: 0;
@@ -456,7 +456,7 @@
 
 /*FOOTER*/
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     footer {
         flex-direction: column;
         align-items: start;

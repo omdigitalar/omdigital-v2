@@ -4,7 +4,7 @@
 }
 
 /*SECTION PRINCIPAL*/
-@media (max-width: 425px) {
+@media (max-width: 500px) {
 
     img,
     svg {
@@ -55,7 +55,7 @@
 
 /*HOME*/
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
     .impronta {
         background-color: black;
 
@@ -116,7 +116,7 @@
 
     }
 
-    @media (max-width: 425px) {
+    @media (max-width: 500px) {
         .adaptamos3 {
             text-align: center;
             background-color: black;
@@ -330,7 +330,7 @@
 
     /*PAGINA ACERCA DE*/
 
-    @media (max-width: 425px) {
+    @media (max-width: 500px) {
         .cv {
             padding: 20px;
             grid-template-columns: 1fr;
@@ -405,7 +405,7 @@
 
     /*PAGINA SERVICIOS*/
 
-    @media (max-width: 425px) {
+    @media (max-width: 500px) {
         .cards-servicios {
                 display: flex;
                 background-color: black;
@@ -425,7 +425,7 @@
 
     /*PAGINA PROYECTOS*/
 
-    @media (max-width: 425px) {
+    @media (max-width: 500px) {
 
         .grid-proyectos {
             width: 100%;
