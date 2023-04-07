@@ -6,11 +6,13 @@
     padding: 20px 150px 100px 150px;
     background-color: black;
     width: 100%;
+
     .div-foto {
         justify-content: end;
         padding: 30px;
         display: grid;
         align-content: center;
+
         img {
             max-width: 500px;
             height: auto;
@@ -19,10 +21,12 @@
             box-shadow: 5px 5px 10px rgb(16, 16, 16);
         }
     }
+
     .data-cv {
         h3 {
             font-size: 1.3rem;
         }
+
         h4 {
             font-size: 1.8rem;
             font-weight: 700;
@@ -33,12 +37,13 @@
 
 .section-presentacion {
     .que-es-OM {
-        h4{
+        h4 {
             font-weight: 800;
             font-size: 30px;
             padding: 20px 0px;
             text-transform: uppercase;
         }
+
         p {
             margin: 0px;
         }

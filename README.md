@@ -1,1 +1,1 @@
-## Sitio oficial de OM DIGITAL, primera versión creada durante la cursada en Coderhouse.
+## Sitio oficial de OM DIGITAL. Tercera pre-entrega realizada por Manuel Oubiña, de OM Digital, durante la cursada en Coderhouse.

@@ -3,26 +3,30 @@
     @include grid-web (100%, 1fr 1fr, start, top, 40px);
     padding: 100px 150px;
     background-color: black;
+
     .datos-de-contacto {
         padding: 10px 0px 10px 0px;
+
         .info-de-contacto-1col {
             display: flex;
             flex-direction: column;
             margin: 0px;
             gap: 20px;
             padding-top: 20px;
+
             div {
                 display: inline-flex;
                 gap: 10px;
                 align-items: start;
+
                 img {
                     width: 30px;
                     height: 30px;
                 }
             }
-            }
         }
     }
+}
 
 .ico-data {
     display: flex;

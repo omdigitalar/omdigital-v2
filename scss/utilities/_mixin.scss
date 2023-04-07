@@ -1,5 +1,5 @@
 @mixin grid-web ($width, $template, $justify, $align, $gap) {
-	display: grid;
+    display: grid;
     width: $width;
     grid-template-columns: $template;
     justify-content: $justify;

@@ -1,36 +1,38 @@
 @media (max-width: 800px) {
-/*HEADER*/
+
+    /*HEADER*/
     .navbar-expand-lg .navbar-collapse {
         background-color: rgba(31, 31, 31, 0.822);
-    ul {
-        li {
-            a {
-                &:hover {
-                    color: #9a9a9a;
+
+        ul {
+            li {
+                a {
+                    &:hover {
+                        color: #9a9a9a;
+                    }
                 }
             }
         }
     }
-    }
 
-/*section principal*/
+    /*section principal*/
     .sectionPortada {
-    .portada-pagina-contacto {
-        padding: 0px 30px;
+        .portada-pagina-contacto {
+            padding: 0px 30px;
 
-        h1 {
-            font-size: 40px;
-        }
+            h1 {
+                font-size: 40px;
+            }
 
-        h2 {
-            font-size: 35px;
-        }
+            h2 {
+                font-size: 35px;
+            }
 
-        h3 {
-            font-size: 25px;
+            h3 {
+                font-size: 25px;
+            }
         }
     }
-}
 
     .info-de-contacto {
         display: grid;
@@ -42,7 +44,7 @@
         padding-bottom: 30px;
     }
 
-/*HOME*/
+    /*HOME*/
 
     .impronta,
     .nuestra-impronta,
@@ -58,6 +60,7 @@
     .diferenciales {
         text-align: start;
         padding: 40px;
+
         h2 {
             margin: 0px;
             padding: 0px;
@@ -71,6 +74,7 @@
             margin: 0px;
             padding: 50px;
         }
+
         .diferenciales {
             width: 100%;
             margin: 0px;
@@ -81,15 +85,18 @@
 
     .servicios {
         background-color: black;
+
         .bloque-servicios {
             display: grid;
             grid-template-columns: 1fr;
             width: 100%;
             padding: 0px;
+
             .listado-servicios1 ul {
                 padding: 0px;
                 margin: 0px;
                 text-align: center;
+
                 li {
                     text-align: center;
                 }
@@ -155,6 +162,7 @@
                 }
             }
         }
+
         .ver-mas-proyectos {
             text-align: center;
         }
@@ -172,11 +180,13 @@
         padding-top: 100px;
         padding-bottom: 100px;
         background-color: black;
+
         h2 {
             margin: 0px 0px 50px 0px;
             font-size: 1.5rem;
             padding: 0px 30px;
         }
+
         h3 {
             margin: 0px;
             font-size: 1.5rem;
@@ -184,15 +194,17 @@
         }
     }
 
-        .adaptamos3 {
+    .adaptamos3 {
         text-align: center;
         background-color: black;
         padding-top: 50px;
+
         h2 {
             margin: 0px 0px 50px 0px;
             font-size: 1.5rem;
             padding: 0px 30px;
         }
+
         h3 {
             margin: 0px;
             font-size: 1.5rem;
@@ -200,7 +212,7 @@
         }
     }
 
-/*PAGINA ACERCA DE*/
+    /*PAGINA ACERCA DE*/
 
     .cv {
         grid-template-columns: 1fr;
@@ -254,17 +266,17 @@
         }
     }
 
-/*PAGINA SERVICIOS*/
+    /*PAGINA SERVICIOS*/
 
     .cards-servicios {
-    .card-group {
-        @include grid-web (100%, 1fr 1fr, center, top, 40px);
-        margin: 0px;
-        padding: 20px 0px;
+        .card-group {
+            @include grid-web (100%, 1fr 1fr, center, top, 40px);
+            margin: 0px;
+            padding: 20px 0px;
+        }
     }
-}
 
-/*PROYECTOS*/
+    /*PROYECTOS*/
 
     .grid-proyectos {
         @include grid-web (100%, 1fr, center, center, 20px);
@@ -294,7 +306,7 @@
         margin: 0px;
     }
 
-/*CONTACTO*/
+    /*CONTACTO*/
 
     .contacto-data-form {
         @include grid-web (100%, 1fr, start, top, 40px);
@@ -302,7 +314,7 @@
         padding: 20px;
     }
 
-/*FOOTER*/
+    /*FOOTER*/
 
     footer {
         flex-direction: column;

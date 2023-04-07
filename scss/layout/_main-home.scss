@@ -88,9 +88,11 @@
                 box-shadow: 5px 5px 30px rgb(26, 26, 26);
                 text-align: end;
                 transition: transform 0.3s ease-in-out;
+
                 &:hover {
                     transform: translateY(-15px);
                 }
+
                 &:hover~img {
                     transform: translateY(0);
                 }
@@ -110,9 +112,11 @@
                 max-height: auto;
                 box-shadow: 5px 5px 30px rgb(17, 17, 17);
                 transition: transform 0.3s ease-in-out;
+
                 &:hover {
                     transform: translateY(-15px);
                 }
+
                 &:hover~img {
                     transform: translateY(0);
                 }
@@ -130,9 +134,11 @@
                 max-width: 500px;
                 box-shadow: 5px 5px 30px rgb(17, 17, 17);
                 transition: transform 0.3s ease-in-out;
+
                 &:hover {
                     transform: translateY(-15px);
                 }
+
                 &:hover~img {
                     transform: translateY(0);
                 }
@@ -152,19 +158,23 @@
                 box-shadow: 5px 5px 30px rgb(17, 17, 17);
                 margin-bottom: 50px;
                 transition: transform 0.3s ease-in-out;
+
                 &:hover {
                     transform: translateY(-15px);
                 }
+
                 &:hover~img {
                     transform: translateY(0);
                 }
             }
         }
     }
+
     .ver-mas-proyectos {
         text-align: center;
     }
 }
+
 /*fin seccion ultimos trabajos*/
 
 /*SECCION CLIENTES*/
@@ -186,6 +196,7 @@
 
         img {
             transition: transform 0.3s ease-in-out;
+
             &:hover {
                 opacity: 70%;
                 transform: translateY(-15px);
