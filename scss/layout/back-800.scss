@@ -1,5 +1,5 @@
-@media (max-width: 800px) {
 /*HEADER*/
+@media (max-width: 800px) {
     .navbar-expand-lg .navbar-collapse {
         background-color: rgba(31, 31, 31, 0.822);
     ul {
@@ -12,8 +12,9 @@
         }
     }
     }
-
+    } 
 /*section principal*/
+@media (max-width: 800px) {
     .sectionPortada {
     .portada-pagina-contacto {
         padding: 0px 30px;
@@ -31,7 +32,22 @@
         }
     }
 }
+}
 
+// .portada-pagina-contacto h1 {
+//     font-size: 40px;
+// }
+
+// .portada-pagina-contacto h2 {
+//     font-size: 30px;
+// }
+
+//     .portada-pagina-contacto h3 {
+//         font-size: 20px;
+//     }
+// }
+
+@media (max-width: 800px) {
     .info-de-contacto {
         display: grid;
         grid-template-columns: 1fr;
@@ -41,8 +57,11 @@
     .boton-portada {
         padding-bottom: 30px;
     }
+}
 
 /*HOME*/
+
+@media (max-width: 800px) {
 
     .impronta,
     .nuestra-impronta,
@@ -78,7 +97,14 @@
             text-align: start;
         }
     }
+    // .nuestra-impronta h2 {
+    //     margin: 0px;
+    //     padding: 0px;
+    //     font-size: 40px;
+    // }
+}
 
+@media (max-width: 800px) {
     .servicios {
         background-color: black;
         .bloque-servicios {
@@ -97,6 +123,23 @@
         }
     }
 
+    // .servicios .bloque-servicios {
+    //     display: grid;
+    //     grid-template-columns: 1fr;
+    //     width: 100%;
+    //     padding: 0px;
+    // }
+
+    // .listado-servicios ul {
+    //     padding: 0px;
+    //     margin: 0px;
+    // }
+
+    // ol,
+    // ul {
+    //     padding-left: 0px;
+    // } !!!ESTE NOSE SI SE ELIMINA O NO!!!
+
     .adaptamos h3 {
         font-size: 20px;
     }
@@ -105,10 +148,17 @@
         font-size: 20px;
     }
 
+    // .servicios .bloque-servicios li {
+    //     text-align: center;
+    // }
+
     .ver-mas-proyectos {
         text-align: center;
         padding-top: 50px;
     }
+}
+
+@media (max-width: 800px) {
 
     .ultimos-trabajos {
         width: 100%;
@@ -160,11 +210,72 @@
         }
     }
 
+    // .ultimos-titulo {
+    //     display: grid;
+    //     grid-template-columns: 1fr;
+    // }
+
+    // .ultimos-trabajos div {
+    //     width: 100%;
+    // }
+
+    // .trabajos-index {
+    //     display: grid;
+    //     grid-template-columns: 1fr;
+    //     gap: 30px;
+    // }
+
+    // .trabajo1 img,
+    // .trabajo2 img,
+    // .trabajo3 img,
+    // .trabajo4 img {
+    //     margin: 0px;
+    //     padding: 0px;
+    //     max-width: 450px;
+    //     box-shadow: 10px 10px 4px rgb(14, 14, 14);
+    // }
+
+    // .trabajo1,
+    // .trabajo2,
+    // .trabajo3,
+    // .trabajo4 {
+    //     display: flex;
+    //     justify-content: center;
+    //     margin: 0px;
+    // }
+
+    // .ultimos-trabajos h2 {
+    //     width: 100%;
+    //     margin: 0px;
+    //     text-align: center;
+    //     padding: 20px;
+    //     font-size: 25px;
+    //     width: 100%;
+    //     display: grid;
+    //     justify-content: center;
+    // }
+
     .clientes div h2 {
         font-size: 20px;
         margin: 0px;
         padding: 0px;
     }
+
+    // .ultimos-trabajos {
+    //     display: grid;
+    //     grid-template-columns: 1fr;
+    // }
+
+    // .trabajo1 img,
+    // .trabajo2 img,
+    // .trabajo3 img,
+    // .trabajo4 img {
+    //     margin: 0px;
+    //     padding: 0px;
+    // }
+}
+
+@media (max-width: 800px) {
 
     .adaptamos,
     .adaptamos-2 {
@@ -200,8 +311,21 @@
         }
     }
 
+    // .adaptamos h2,
+    // .adaptamos-2 h2 {
+    //     margin: 0px 0px 50px 0px;
+    //     font-size: 1.5rem;
+    //     padding: 0px 30px;
+    // }
+}
+
+// .ver-mas-proyectos {
+//     text-align: center;
+// }
+
 /*PAGINA ACERCA DE*/
 
+@media (max-width: 800px) {
     .cv {
         grid-template-columns: 1fr;
         padding: 0px 40px;
@@ -234,6 +358,39 @@
         }
     }
 
+    // .foto-manu {
+    //     max-width: 100%;
+    //     padding: 0px 60px;
+    //     height: auto;
+    //     justify-content: center;
+    // }
+
+    // .director {
+    //     font-size: 1rem;
+    // }
+
+    // .nombre-manu {
+    //     font-size: 2rem;
+    // }
+
+    // .div-foto {
+    //     max-width: 100%;
+    //     justify-content: center;
+    //     padding: 100px 60px 0px 60px;
+    //     display: flex;
+    // }
+
+    // .presentacion-pagina {
+    //     padding-top: 50px;
+    // }
+
+    // .section-presentacion,
+    // .cv {
+    //     background-color: black;
+    //     width: 100%;
+    //     margin: 0px;
+    // }
+
     .section-presentacion {
         padding: 0px 40px;
         background-color: black;
@@ -254,8 +411,22 @@
         }
     }
 
+    // .section-presentacion h4 {
+    //     margin: 0px;
+    //     font-weight: 600;
+    //     padding-bottom: 30px;
+    //     font-size: 30px;
+    // }
+
+    // .section-presentacion div h4 {
+    //     font-size: 25px;
+    // }
+
+}
+
 /*PAGINA SERVICIOS*/
 
+@media (max-width: 800px) {
     .cards-servicios {
     .card-group {
         display: grid;
@@ -265,8 +436,10 @@
         padding: 20px 0px;
     }
 }
+}
 
 /*PROYECTOS*/
+@media (max-width: 800px) {
 
     .grid-proyectos {
         width: 100%;
@@ -292,22 +465,49 @@
         }
     }
 
+    // .celda-proyecto {
+    //     max-width: 500px;
+    //     padding: 0px;
+    //     margin: 0px;
+    // }
+
+    // .celda-proyecto img,
+    // .celda-proyecto iframe {
+    //     max-width: 500px;
+    // }
+
+    // .celda-proyecto figure {
+    //     max-width: 500px;
+    //     margin: 0px;
+    //     padding: 0px;
+    // }
+
     .cierre-proyectos {
         padding: 10px 50px 50px 50px;
         background-color: black;
         margin: 0px;
     }
 
+    // .celda-proyecto figcaption {
+    //     padding-bottom: 20px;
+    //     margin-top: 20px;
+    // }
+
+}
+
 /*CONTACTO*/
 
+@media (max-width: 800px) {
     .contacto-data-form {
         grid-template-columns: 1fr;
         margin: 0;
         padding: 20px;
     }
+}
 
 /*FOOTER*/
 
+@media (max-width: 800px) {
     footer {
         flex-direction: column;
         align-items: start;
@@ -317,4 +517,8 @@
             margin-left: -9px;
         }
     }
+
+    // footer img {
+    //     margin-left: -9px;
+    // }
 }

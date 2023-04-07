@@ -10,10 +10,6 @@
     margin-left: 0px;
 }
 
-// .presentacion-pagina {
-//     padding-top: 50px;
-// }
-
 .section-presentacion {
     padding: 50px 150px;
     background-color: black;
@@ -32,23 +28,6 @@
         }
     }
 }
-
-// .cv {
-//     padding: 50px 150px 150px 150px;
-//     background-color: black;
-//     width: 100%;
-// }
-
-// .section-presentacion h4 {
-//     color: $primary-color;
-//     margin-right: 300px;
-// }
-
-// .section-presentacion div p {
-//     font-weight: 300%;
-//     margin: 0px;
-// }
-
 
 .grid-proyectos {
     display: grid;
@@ -80,28 +59,6 @@
     }
 }
 
-// .celda-proyecto {
-//     display: grid;
-//     max-width: 500px;
-//     font-family: $font-main;
-//     color: #FFFF;
-//     text-align: center;
-//     margin-bottom: 50px;
-// }
-
-// .celda-proyecto img {
-//     max-width: 500px;
-// }
-
-// .celda-proyecto iframe {
-//     max-width: 500px;
-// }
-
-// .celda-proyecto figcaption {
-//     padding-bottom: 50px;
-//     margin-top: 20px;
-// }
-
 .cierre-proyectos {
     padding: 150px;
     background-color: black;
@@ -116,15 +73,3 @@
         margin-bottom: 50px;
     }
 }
-
-// .cierre-proyectos h3 {
-//     margin-bottom: 50px;
-// }
-
-// .cierre-proyectos hr {
-//     border-width: 6px 0px 0px 0px;
-//     border-color: $primary-color;
-//     margin-left: 0px;
-//     margin-right: 90%;
-//     ;
-// }
