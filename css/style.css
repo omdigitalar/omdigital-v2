@@ -83,6 +83,11 @@ html .boton::selection {
   background-color: #0000;
   color: #61ce70; }
 
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+  margin-top: 20px; }
+
 /*HEADER*/
 header {
   height: 100px;
@@ -274,6 +279,8 @@ header {
           transform: translateY(-15px); }
         .ultimos-trabajos .trabajos-index .trabajo4 img:hover ~ img {
           transform: translateY(0); }
+  .ultimos-trabajos .ver-mas-proyectos {
+    text-align: center; }
 
 /*fin seccion ultimos trabajos*/
 /*SECCION CLIENTES*/
@@ -429,6 +436,13 @@ header {
           font-weight: 700;
           text-transform: uppercase;
           padding: 10px 0px; }
+
+.adaptamos3 h3 {
+  margin: 0px;
+  font-size: 30px;
+  padding: 0px 30px;
+  background-color: black;
+  text-align: center; }
 
 /*CONTACTO*/
 .contacto-data-form {
