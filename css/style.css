@@ -160,6 +160,30 @@ header {
           width: 30px;
           height: 30px; }
 
+.principal-servicios {
+  background-image: url("../assets/img/portada-servicios.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.principal-contacto {
+  background-image: url("../assets/img/portada-contacto.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.principal-acerca-de {
+  background-image: url("../assets/img/portada-acerca-de.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.principal-proyectos {
+  background-image: url("../assets/img/portada-proyectos.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 /*SECCION IMPRONTA*/
 .impronta {
   box-sizing: 100%;
