@@ -458,7 +458,8 @@ header {
     padding: 20px 50px; }
     .cards-servicios .card-group .card {
       max-width: 300px;
-      background-color: #0000; }
+      background-color: #0000;
+      justify-self: center; }
       .cards-servicios .card-group .card .card-body {
         max-width: 300px;
         border-radius: 0px;
