@@ -367,10 +367,11 @@ header {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr;
-  text-align: center;
-  place-items: center;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  text-align: center;
+  place-items: center;
   background-color: black;
   padding: 0px 150px; }
   .grid-proyectos figure {
@@ -381,7 +382,6 @@ header {
     text-align: center;
     margin-bottom: 50px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    /* Agrega una sombra por defecto */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
     .grid-proyectos figure:hover {
       transform: scale(1.025);
@@ -424,13 +424,15 @@ header {
       margin-top: -45px;
       box-shadow: 5px 5px 10px #101010; }
   .cv .data-cv h3 {
-    font-size: 1.5rem; }
+    font-size: 1.3rem; }
   .cv .data-cv h4 {
-    font-size: 2.5rem; }
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #61ce70; }
 
 .section-presentacion .que-es-OM h4 {
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 800;
+  font-size: 30px;
   padding: 20px 0px;
   text-transform: uppercase; }
 
@@ -447,10 +449,13 @@ header {
   padding: 50px; }
   .cards-servicios .card-group {
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0px;
+    justify-content: center;
+    align-items: top;
     gap: 40px;
-    padding: 20px 0px; }
+    margin: 0px;
+    padding: 20px 50px; }
     .cards-servicios .card-group .card {
       max-width: 300px;
       background-color: #0000; }
@@ -482,10 +487,13 @@ header {
 /*CONTACTO*/
 .contacto-data-form {
   display: grid;
+  width: 100%;
   grid-template-columns: 1fr 1fr;
+  justify-content: start;
+  align-items: top;
+  gap: 40px;
   padding: 100px 150px;
-  background-color: black;
-  width: 100%; }
+  background-color: black; }
   .contacto-data-form .datos-de-contacto {
     padding: 10px 0px 10px 0px; }
     .contacto-data-form .datos-de-contacto .info-de-contacto-1col {
@@ -699,17 +707,23 @@ footer {
   /*PAGINA SERVICIOS*/
   .cards-servicios .card-group {
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
-    margin: 0px;
+    justify-content: center;
+    align-items: top;
     gap: 40px;
+    margin: 0px;
     padding: 20px 0px; }
   /*PROYECTOS*/
   .grid-proyectos {
-    width: 100%;
-    padding: 50px 100px 0px 100px;
-    margin: 0px;
     display: grid;
-    grid-template-columns: 1fr; }
+    width: 100%;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 100px 0px 100px;
+    margin: 0px; }
     .grid-proyectos figure {
       max-width: 500px;
       padding: 0px;
@@ -726,7 +740,12 @@ footer {
     margin: 0px; }
   /*CONTACTO*/
   .contacto-data-form {
+    display: grid;
+    width: 100%;
     grid-template-columns: 1fr;
+    justify-content: start;
+    align-items: top;
+    gap: 40px;
     margin: 0;
     padding: 20px; }
   /*FOOTER*/
@@ -910,17 +929,23 @@ footer {
     padding: 0px 50px 50px 50px; }
     .cards-servicios .card-group {
       display: grid;
+      width: 100%;
       grid-template-columns: 1fr;
-      margin: 0px;
+      justify-content: center;
+      align-items: top;
       gap: 40px;
+      margin: 0px;
       padding: 20px 0px; }
   /*PAGINA PROYECTOS*/
   .grid-proyectos {
-    width: 100%;
-    padding: 20px;
-    margin: 0px;
     display: grid;
-    grid-template-columns: 1fr; }
+    width: 100%;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0px; }
     .grid-proyectos figure {
       max-width: 280px;
       padding: 0px;

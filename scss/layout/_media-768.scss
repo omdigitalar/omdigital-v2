@@ -258,10 +258,8 @@
 
     .cards-servicios {
     .card-group {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        @include grid-web (100%, 1fr 1fr, center, top, 40px);
         margin: 0px;
-        gap: 40px;
         padding: 20px 0px;
     }
 }
@@ -269,11 +267,9 @@
 /*PROYECTOS*/
 
     .grid-proyectos {
-        width: 100%;
+        @include grid-web (100%, 1fr, center, center, 20px);
         padding: 50px 100px 0px 100px;
         margin: 0px;
-        display: grid;
-        grid-template-columns: 1fr;
 
         figure {
             max-width: 500px;
@@ -301,7 +297,7 @@
 /*CONTACTO*/
 
     .contacto-data-form {
-        grid-template-columns: 1fr;
+        @include grid-web (100%, 1fr, start, top, 40px);
         margin: 0;
         padding: 20px;
     }

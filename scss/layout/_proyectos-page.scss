@@ -30,13 +30,9 @@
 }
 
 .grid-proyectos {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr;
+    @include grid-web (100%,1fr 1fr, center, center, 20px);
     text-align: center;
     place-items: center;
-    justify-content: center;
-    align-items: center;
     background-color: black;
     padding: 0px 150px;
     figure {
@@ -47,7 +43,6 @@
         text-align: center;
         margin-bottom: 50px;
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        /* Agrega una sombra por defecto */
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
         &:hover {
             transform: scale(1.025);

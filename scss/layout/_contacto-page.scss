@@ -1,10 +1,8 @@
 /*CONTACTO*/
 .contacto-data-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    @include grid-web (100%, 1fr 1fr, start, top, 40px);
     padding: 100px 150px;
     background-color: black;
-    width: 100%;
     .datos-de-contacto {
         padding: 10px 0px 10px 0px;
         .info-de-contacto-1col {

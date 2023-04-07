@@ -275,10 +275,8 @@
         padding: 0px 50px 50px 50px;
 
         .card-group {
-            display: grid;
-            grid-template-columns: 1fr;
+            @include grid-web (100%, 1fr, center, top, 40px);
             margin: 0px;
-            gap: 40px;
             padding: 20px 0px;
         }
     }
@@ -286,11 +284,9 @@
     /*PAGINA PROYECTOS*/
 
     .grid-proyectos {
-        width: 100%;
+        @include grid-web (100%, 1fr, center, center, 20px);
         padding: 20px;
         margin: 0px;
-        display: grid;
-        grid-template-columns: 1fr;
 
         figure {
             max-width: 280px;
