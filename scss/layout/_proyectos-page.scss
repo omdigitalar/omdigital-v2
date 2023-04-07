@@ -46,6 +46,13 @@
         color: #FFFF;
         text-align: center;
         margin-bottom: 50px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        /* Agrega una sombra por defecto */
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        &:hover {
+            transform: scale(1.025);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
         img {
             max-width: 500px;
         }

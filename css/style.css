@@ -379,7 +379,13 @@ header {
     font-family: "Montserrat", sans-serif;
     color: #FFFF;
     text-align: center;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* Agrega una sombra por defecto */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+    .grid-proyectos figure:hover {
+      transform: scale(1.025);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); }
     .grid-proyectos figure img {
       max-width: 500px; }
     .grid-proyectos figure iframe {
@@ -453,7 +459,12 @@ header {
         border-radius: 0px;
         border: #61ce70 solid;
         background-color: #0000;
-        padding: 20px 20px; }
+        padding: 20px 20px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        box-shadow: 0 0 5px rgba(57, 101, 60, 0.5); }
+        .cards-servicios .card-group .card .card-body:hover {
+          transform: scale(1.05);
+          box-shadow: 0 0 15px rgba(57, 101, 60, 0.5); }
         .cards-servicios .card-group .card .card-body .card-title {
           color: #61ce70;
           font-family: "Montserrat", sans-serif;

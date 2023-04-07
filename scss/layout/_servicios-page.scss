@@ -22,6 +22,12 @@
                 border: $primary-color solid;
                 background-color: #0000;
                 padding: 20px 20px;
+                transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+                box-shadow: 0 0 5px rgba(57, 101, 60, 0.5);
+                &:hover {
+                    transform: scale(1.05);
+                    box-shadow: 0 0 15px rgba(57, 101, 60, 0.5);
+                }
                 .card-title {
                     color: $primary-color;
                     font-family: $font-main;
