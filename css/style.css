@@ -478,13 +478,13 @@ footer {
 /*HEADER*/
 /*section principal*/
 @media (max-width: 800px) {
-  .portada-pagina-contacto {
+  .sectionPortada .portada-pagina-contacto {
     padding: 0px 30px; }
-    .portada-pagina-contacto h1 {
+    .sectionPortada .portada-pagina-contacto h1 {
       font-size: 40px; }
-    .portada-pagina-contacto h2 {
+    .sectionPortada .portada-pagina-contacto h2 {
       font-size: 30px; }
-    .portada-pagina-contacto h3 {
+    .sectionPortada .portada-pagina-contacto h3 {
       font-size: 20px; } }
 
 @media (max-width: 800px) {
