@@ -1,7 +1,18 @@
 /*HEADER*/
+@media (max-width: 500px) {
 .navbar-expand-lg .navbar-collapse {
     background-color: rgba(31, 31, 31, 0.822);
+    ul {
+        li {
+            a {
+                &:hover {
+                    color: #9a9a9a;
+                }
+            }
+        }
+    }
 }
+} 
 
 /*SECTION PRINCIPAL*/
 @media (max-width: 500px) {

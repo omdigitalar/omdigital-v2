@@ -99,7 +99,10 @@ header {
   color: white; }
 
 .navbar-expand-lg .navbar-collapse {
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  text-align: center; }
+  .navbar-expand-lg .navbar-collapse ul li a:hover {
+    color: #9a9a9a; }
 
 .navbar-toggler {
   color: #61ce70; }
@@ -476,6 +479,12 @@ footer {
     font-size: 30px; }
 
 /*HEADER*/
+@media (max-width: 800px) {
+  .navbar-expand-lg .navbar-collapse {
+    background-color: rgba(31, 31, 31, 0.822); }
+    .navbar-expand-lg .navbar-collapse ul li a:hover {
+      color: #9a9a9a; } }
+
 /*section principal*/
 @media (max-width: 800px) {
   .sectionPortada .portada-pagina-contacto {
@@ -706,8 +715,11 @@ footer {
       margin-left: -9px; } }
 
 /*HEADER*/
-.navbar-expand-lg .navbar-collapse {
-  background-color: rgba(31, 31, 31, 0.822); }
+@media (max-width: 500px) {
+  .navbar-expand-lg .navbar-collapse {
+    background-color: rgba(31, 31, 31, 0.822); }
+    .navbar-expand-lg .navbar-collapse ul li a:hover {
+      color: #9a9a9a; } }
 
 /*SECTION PRINCIPAL*/
 @media (max-width: 500px) {
