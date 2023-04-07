@@ -409,7 +409,7 @@ header {
 .cv {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px 200px 100px 50px;
+  padding: 20px 150px 100px 150px;
   background-color: black;
   width: 100%; }
   .cv .div-foto {
