@@ -3,20 +3,20 @@
 footer {
     background-color: white;
     padding: 50px;
-    color: black;
+    color: $backg-color;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px 50px 50px;
 
     p {
-        color: black;
+        color: $backg-color;
         line-height: 1.5rem;
         font-size: 14px;
     }
 
     h3 {
-        color: black;
+        color: $backg-color;
         font-size: 30px;
     }
 }

@@ -84,8 +84,6 @@
     }
 
     .servicios {
-        background-color: black;
-
         .bloque-servicios {
             display: grid;
             grid-template-columns: 1fr;
@@ -179,7 +177,6 @@
         text-align: center;
         padding-top: 100px;
         padding-bottom: 100px;
-        background-color: black;
 
         h2 {
             margin: 0px 0px 50px 0px;
@@ -196,7 +193,6 @@
 
     .adaptamos3 {
         text-align: center;
-        background-color: black;
         padding-top: 50px;
 
         h2 {
@@ -217,7 +213,6 @@
     .cv {
         grid-template-columns: 1fr;
         padding: 0px 40px;
-        background-color: black;
         width: 100%;
         margin: 0px;
 
@@ -248,7 +243,6 @@
 
     .section-presentacion {
         padding: 0px 40px;
-        background-color: black;
         width: 100%;
         margin: 0px;
 
@@ -302,7 +296,6 @@
 
     .cierre-proyectos {
         padding: 10px 50px 50px 50px;
-        background-color: black;
         margin: 0px;
     }
 

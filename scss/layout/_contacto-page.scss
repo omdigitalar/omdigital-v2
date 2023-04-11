@@ -2,7 +2,6 @@
 .contacto-data-form {
     @include grid-web (100%, 1fr 1fr, start, top, 40px);
     padding: 100px 150px;
-    background-color: black;
 
     .datos-de-contacto {
         padding: 10px 0px 10px 0px;
