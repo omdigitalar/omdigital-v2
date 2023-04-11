@@ -15,10 +15,27 @@
         }
     }
 
+    .container-fluid {
+        .navbar-brand {
+            margin: 20px;
+            img {
+                max-width: 150px;
+            }
+        }
+        .navbar-toggler {
+            margin: 20px;
+        }
+        #navbarNav {
+            padding: 0px;
+        }
+    }
+    
+    
+
     /*section principal*/
     .sectionPortada {
         .portada-pagina-contacto {
-            padding: 0px 30px;
+            padding: 0px 50px;
 
             h1 {
                 font-size: 40px;
@@ -242,7 +259,7 @@
     }
 
     .section-presentacion {
-        padding: 0px 40px;
+        padding: 0px 50px;
         width: 100%;
         margin: 0px;
 
@@ -304,7 +321,7 @@
     .contacto-data-form {
         @include grid-web (100%, 1fr, start, top, 40px);
         margin: 0;
-        padding: 20px;
+        padding: 50px;
     }
 
     /*FOOTER*/

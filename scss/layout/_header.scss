@@ -23,6 +23,7 @@ header {
 .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
     text-align: center;
+    padding: 50px 30px 50px 50px;
 
     ul {
         li {
@@ -51,3 +52,11 @@ header {
     border: $primary-color solid 2px;
     color: $primary-color;
 }
+
+    .navbar-brand {
+        margin: 30px 50px;
+        img {
+            max-width: 200px;
+        }
+    }
+

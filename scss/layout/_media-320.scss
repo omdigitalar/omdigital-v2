@@ -15,7 +15,25 @@
         }
     }
 
+    .container-fluid {
+    .navbar-brand {
+        margin: 0px;
+        img {
+            max-width: 150px;
+        }
+    }
+    .navbar-toggler {
+        margin: 0px;
+    }
+}
+
     /*SECTION PRINCIPAL*/
+
+    .section-presentacion {
+        padding: 0px 20px;
+        width: 100%;
+        margin: 0px;
+    }
 
     img,
     svg {
@@ -25,32 +43,32 @@
 
     .sectionPortada {
         .portada-pagina-contacto {
-            padding: 0px;
+            padding: 20px;
 
             h1 {
                 font-size: 30px;
-                padding-left: 20px;
-                padding-top: 160px;
+                padding-left: 0px;
+                margin: 50px 0px 0px 0px;
             }
 
             h2 {
                 font-size: 25px;
-                padding-left: 20px;
+                padding-left: 0px;
             }
 
             h3 {
                 font-size: 20px;
-                padding-left: 20px;
+                padding-left: 0px;
             }
 
             .boton-portada {
-                padding: 20px;
+                padding: 20px 0px;
             }
 
             .info-de-contacto {
                 display: grid;
                 grid-template-columns: 1fr;
-                padding: 20px;
+                padding: 0px;
 
                 .icono-y-dato {
                     p {
@@ -60,7 +78,7 @@
             }
 
             hr {
-                margin: 20px;
+                padding: 0px;
             }
         }
     }
@@ -90,7 +108,7 @@
             margin: 0px;
             width: 100%;
             text-align: start;
-            padding: 0px 40px 40px 40px;
+            padding: 0px 20px 40px 20px;
 
             h3 {
                 font-size: 24px;

@@ -108,7 +108,8 @@ header {
 
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
-  text-align: center; }
+  text-align: center;
+  padding: 50px 30px 50px 50px; }
   .navbar-expand-lg .navbar-collapse ul li a:hover {
     color: #9a9a9a; }
 
@@ -125,6 +126,11 @@ header {
   background: #0000;
   border: #61ce70 solid 2px;
   color: #61ce70; }
+
+.navbar-brand {
+  margin: 30px 50px; }
+  .navbar-brand img {
+    max-width: 200px; }
 
 /*background de seccion portada*/
 .sectionPortada {
@@ -537,9 +543,17 @@ footer {
     background-color: rgba(31, 31, 31, 0.822); }
     .navbar-expand-lg .navbar-collapse ul li a:hover {
       color: #9a9a9a; }
+  .container-fluid .navbar-brand {
+    margin: 20px; }
+    .container-fluid .navbar-brand img {
+      max-width: 150px; }
+  .container-fluid .navbar-toggler {
+    margin: 20px; }
+  .container-fluid #navbarNav {
+    padding: 0px; }
   /*section principal*/
   .sectionPortada .portada-pagina-contacto {
-    padding: 0px 30px; }
+    padding: 0px 50px; }
     .sectionPortada .portada-pagina-contacto h1 {
       font-size: 40px; }
     .sectionPortada .portada-pagina-contacto h2 {
@@ -688,7 +702,7 @@ footer {
     .cv .data-cv h4 {
       font-size: 2rem; }
   .section-presentacion {
-    padding: 0px 40px;
+    padding: 0px 50px;
     width: 100%;
     margin: 0px; }
     .section-presentacion .presentacion-pagina {
@@ -740,7 +754,7 @@ footer {
     align-items: top;
     gap: 40px;
     margin: 0;
-    padding: 20px; }
+    padding: 50px; }
   /*FOOTER*/
   footer {
     flex-direction: column;
@@ -755,33 +769,43 @@ footer {
     background-color: rgba(31, 31, 31, 0.822); }
     .navbar-expand-lg .navbar-collapse ul li a:hover {
       color: #9a9a9a; }
+  .container-fluid .navbar-brand {
+    margin: 0px; }
+    .container-fluid .navbar-brand img {
+      max-width: 150px; }
+  .container-fluid .navbar-toggler {
+    margin: 0px; }
   /*SECTION PRINCIPAL*/
+  .section-presentacion {
+    padding: 0px 20px;
+    width: 100%;
+    margin: 0px; }
   img,
   svg {
     vertical-align: middle;
     max-width: 150px; }
   .sectionPortada .portada-pagina-contacto {
-    padding: 0px; }
+    padding: 20px; }
     .sectionPortada .portada-pagina-contacto h1 {
       font-size: 30px;
-      padding-left: 20px;
-      padding-top: 160px; }
+      padding-left: 0px;
+      margin: 50px 0px 0px 0px; }
     .sectionPortada .portada-pagina-contacto h2 {
       font-size: 25px;
-      padding-left: 20px; }
+      padding-left: 0px; }
     .sectionPortada .portada-pagina-contacto h3 {
       font-size: 20px;
-      padding-left: 20px; }
+      padding-left: 0px; }
     .sectionPortada .portada-pagina-contacto .boton-portada {
-      padding: 20px; }
+      padding: 20px 0px; }
     .sectionPortada .portada-pagina-contacto .info-de-contacto {
       display: grid;
       grid-template-columns: 1fr;
-      padding: 20px; }
+      padding: 0px; }
       .sectionPortada .portada-pagina-contacto .info-de-contacto .icono-y-dato p, .sectionPortada .portada-pagina-contacto .info-de-contacto .icono-y-dato h1, .sectionPortada .portada-pagina-contacto .info-de-contacto .icono-y-dato h2, .sectionPortada .portada-pagina-contacto .info-de-contacto .icono-y-dato h3, .sectionPortada .portada-pagina-contacto .info-de-contacto .icono-y-dato h4 {
         font-size: 14px; }
     .sectionPortada .portada-pagina-contacto hr {
-      margin: 20px; }
+      padding: 0px; }
   /*HOME*/
   .impronta .nuestra-impronta {
     display: grid;
@@ -800,7 +824,7 @@ footer {
     margin: 0px;
     width: 100%;
     text-align: start;
-    padding: 0px 40px 40px 40px; }
+    padding: 0px 20px 40px 20px; }
     .impronta .diferenciales h3 {
       font-size: 24px; }
   .adaptamos3 {
